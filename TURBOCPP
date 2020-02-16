@@ -1,8 +1,29 @@
-echo "  _____           _              ____ ____  ____  ";
-echo " |_   _|   _ _ __| |__   ___    / ___|  _ \|  _ \ ";
-echo "   | || | | | '__| '_ \ / _ \  | |   | |_) | |_) |";
-echo "   | || |_| | |  | |_) | (_) | | |___|  __/|  __/ ";
-echo "   |_| \__,_|_|  |_.__/ \___/   \____|_|   |_|    ";
-echo "                                                  ";
+#!/bin/bash
 
-dosbox -conf dosbox.conf
+echo -e "+---------------------------------------------------------------+";
+echo -e "|                                                               |";
+echo -e "|    _____  _   _  ____   ____    ___     ____  ____   ____     |";
+echo -e "|   |_   _|| | | ||  _ \ | __ )  / _ \   / ___||  _ \ |  _ \    |";
+echo -e "|     | |  | | | || |_) |+  _ \ | | | | | |    | |_) |+ |_) |   |";
+echo -e "|     | |  | |_| |+  _ < | |_) || |_| | | |___ |  __/ |  __/    |";
+echo -e "|     |_|   \___/ |_| \_\|____/  \___/   \____||_|    |_|       |";
+echo -e "|                                                               |";
+echo -e "|        A port of Borland's C++ IDE for Linux machines,        |";
+echo -e "|        using the popular DOSBOX Emulator, coz why not?        |";
+echo -e "|                                                               |";
+echo -e "+---------------------------------------------------------------+";
+echo -e "|                                                               |";
+echo -e "|  Please close this terminal window after you have had enough  |";
+echo -e "|               of the awesome ASCII ART here :P                |";
+echo -e "|                                                               |";
+echo -e "|  Huge thanks to Vineeth Choudhary (@vineetchoudhary) for the  |";
+echo -e "|          awesome TURBOC++ port for Windows machines.          |";
+echo -e "|                                                               |";
+echo -e "+---------------------------------------------------------------+";
+echo -e "|      Check me out on GitHub: github.com/AvinashReddy3108      |";
+echo -e "+---------------------------------------------------------------+";
+echo -e "|                  ASCII Art: asciiflow.com                     |";
+echo -e "+---------------------------------------------------------------+";
+
+nohup dosbox -conf dosbox.conf >/dev/null 2>&1 &
+exit
